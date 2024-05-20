@@ -21,7 +21,7 @@ doc_md_DAG = """
     failure in Airbyte in the events of any schema-break event.
     - By loading tables after release to Bigquery and trigger DBT job, the DAG alert unexpected failure in
     DBT job due to changes in ABC underlying tables structure.
-    - For detail of architecture and tasks, refer to [this](https://companyaportal.atlassian.net/wiki/spaces/DAR/pages/652574752/test__ABC_integration) Confluence doc.
+    - For detail of architecture and tasks, refer to [Notion](https://nvjrepo.notion.site/Integration-test-in-Airflow-91c943610d6d459fa013d9fb402408f5?pvs=74) doc.
 """
 
 JENKINS_JOB_NAME = "ABC BI - Backend"
